@@ -1,0 +1,14 @@
+title: "Mathematical Modeling Course"
+author: "Anna Oleynik"
+logo: "logo.png"
+execute:
+  execute_notebooks: off  # Ensures notebooks are not auto-executed when building
+latex:
+  latex_engine: "xelatex"  # Supports LaTeX equations
+html:
+  mathjax: true
+  use_repository_button: true  # Adds a GitHub repository button
+  use_issues_button: true  # Allows students to report issues
+repository:
+  url: "https://github.com/Codeniksson/mathmodeling_course"
+  branch: main
