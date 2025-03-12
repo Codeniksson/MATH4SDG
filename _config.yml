@@ -1,5 +1,5 @@
 title: "Mathematical Modeling Course"
-author: "Anna Oleynik"
+author: "Anna Oleynik, and other authors"
 logo: "logo.png"
 execute:
   execute_notebooks: off  # Ensures notebooks are not auto-executed when building
@@ -10,5 +10,6 @@ html:
   use_repository_button: true  # Adds a GitHub repository button
   use_issues_button: true  # Allows students to report issues
 repository:
-  url: "https://github.com/Codeniksson/mathmodeling_course"
+  path_to_book: .
+  url: "https://github.com/Codeniksson/MATH4SDG"
   branch: main
