@@ -1,15 +1,58 @@
 title: "Mathematical Modeling Course"
 author: "Anna Oleynik, and other authors"
 logo: "logo.png"
+
 execute:
-  execute_notebooks: off  # Ensures notebooks are not auto-executed when building
-latex:
-  latex_engine: "xelatex"  # Supports LaTeX equations
+  execute_notebooks: "auto"
+
+
+parse:
+  myst_enable_extensions: 
+    - amsmath       # For environments like \begin{align}
+    - html_image     # Better handling of images
+    - colon_fence    # For improved markdown fences
+    - deflist        # For definition lists
+    - dollarmath     # Enables $...$ and $$...$$ math
+    - html_admonition # For callouts, notes, etc.
+    - linkify        # Automatically converts URLs to links
+    - smartquotes    # Corrects typography issues
+
+
+
+
+
+
+sphinx:
+  extra_extensions:
+    - sphinx.ext.imgconverter
+    #- application/vnd.plotly.v1+json
+
+        
+  config:
+    project: "Mathematical Modeling Course"
+    html_baseurl: "https://codeniksson.github.io/MATH4SDG/"
+   
+  mathjax3_config:
+      loader: 
+        load: ['[tex]/boldsymbol']
+      tex:
+        macros:
+          "P" : "\\operatorname{P}"
+        packages:
+          '[+]': ['boldsymbol']
+
 html:
-  mathjax: true
-  use_repository_button: true  # Adds a GitHub repository button
-  use_issues_button: true  # Allows students to report issues
+  use_mathjax: true
+  use_repository_button: true
+  use_issues_button: true
+
 repository:
   path_to_book: .
   url: "https://github.com/Codeniksson/MATH4SDG"
   branch: main
+
+# LaTeX-specific settings
+latex:
+  latex_engine              : pdflatex  # one of 'pdflatex', 'xelatex' (recommended for unicode), 'luatex', 'platex', 'uplatex'
+  use_jupyterbook_latex     : true # use sphinx-jupyterbook-latex for pdf builds as default
+

@@ -5,5 +5,9 @@ format: jb-book
 root: intro
 chapters:
   - file: 01-intro/1-who-for
+    sections:
+      - file: 01-intro/2-code
   - file: 02-math102/1-motivating-problem
+    sections:
+      - file: 02-math102/2-gradient_descent
     
