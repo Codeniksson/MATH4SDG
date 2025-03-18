@@ -17,8 +17,8 @@ Additionally, the initiative will support the creation of a robust network of da
 
 
 
-## Testing math formulas \$ and \\( \\) in .md- mode 
-___
+## Testing math formulas \$ and \\[ \\] in .md- mode 
+
 
 **Central Limit Theorem (CLT)**
 The distribution of the sample mean of a sufficiently large number of independent, identically distributed (i.i.d.) random variables approaches a normal distribution, regardless of the original population distribution, i.e.  
@@ -30,7 +30,6 @@ Z = \frac{\overline{X} - \mu}{\sigma / \sqrt{n}}
 
 where \( \overline{X} \) is a sample mean, \( n \) is the sample size,  \( \mu \) and  \( \sigma \) are the population mean  and standard deviation, respectively.  
  
-___
 
  **Euler's Identity**
 A profound equation in complex analysis that unites five fundamental mathematical constants: \( e \), \( i \), \( \pi \), 1, and 0. It reads as

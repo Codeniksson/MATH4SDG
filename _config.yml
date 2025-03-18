@@ -25,6 +25,8 @@ parse:
 sphinx:
   extra_extensions:
     - sphinx.ext.imgconverter
+  config:
+    html_js_files: https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
     #- application/vnd.plotly.v1+json
 
         

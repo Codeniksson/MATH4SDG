@@ -3,7 +3,7 @@ title: Chapter 2
 
 ---
 
-# MATH 102 - Elementary Calculus II
+# MATH 102
 
 ## Objectives and Content
 

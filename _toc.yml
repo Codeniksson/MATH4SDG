@@ -9,5 +9,8 @@ chapters:
       - file: 01-intro/2-code
   - file: 02-math102/1-description
     sections:
+      - file: 02-math102/2-grunnleggende_python
+      - file: 02-math102/2-Newtons_metode
       - file: 02-math102/2-gradient_descent
+      
     
