@@ -5,4 +5,6 @@ title: Main Introduction
 
 # Introduction
 
-This is the Jupyter book to collect all coursework for Department of Mathematics as UiB
+This is  Jupyter book to collect coursework for Department of Mathematics at UiB. 
+
+![Just a random picture](01-intro/Tree.png)
