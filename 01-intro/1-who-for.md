@@ -16,26 +16,3 @@ Our initiative aligns with the broader goals of sustainable development and soci
 Additionally, the initiative will support the creation of a robust network of data scientists, health professionals, and environmental scientists. This network will serve as a platform for continuous learning and knowledge exchange, ensuring best practices are disseminated and adopted widely. By building capacity in data science, we aim to create a sustainable pipeline of skilled professionals who can contribute to improving health and environmental outcomes, ultimately supporting the achievement of the Sustainable Development Goals (SDGs).
 
 
-
-## Testing math formulas \$ and \\[ \\] in .md- mode 
-
-
-**Central Limit Theorem (CLT)**
-The distribution of the sample mean of a sufficiently large number of independent, identically distributed (i.i.d.) random variables approaches a normal distribution, regardless of the original population distribution, i.e.  
-
-
-\[
-Z = \frac{\overline{X} - \mu}{\sigma / \sqrt{n}}
-\]
-
-where \( \overline{X} \) is a sample mean, \( n \) is the sample size,  \( \mu \) and  \( \sigma \) are the population mean  and standard deviation, respectively.  
- 
-
- **Euler's Identity**
-A profound equation in complex analysis that unites five fundamental mathematical constants: \( e \), \( i \), \( \pi \), 1, and 0. It reads as
-
-$$
-e^{i\pi} + 1 = 0,
-$$
-
-where $e$ is base of the natural logarithm, $i$ is imaginary unit, i.e., $ i^2= -1$ and $ \pi$ is the representing the ratio of a circle’s circumference to its diameter.

@@ -7,10 +7,14 @@ chapters:
   - file: 01-intro/1-who-for
     sections:
       - file: 01-intro/2-code
-  - file: 02-math102/1-description
+      - file: 01-intro/3-data
+  - file: 02-math102/math102-description
     sections:
-      - file: 02-math102/2-grunnleggende_python
-      - file: 02-math102/2-Newtons_metode
-      - file: 02-math102/2-gradient_descent
-      
+      - file: 02-math102/grunnleggende_python
+      - file: 02-math102/Newtons_metode
+  - file: 03-math230/math230-description
+    sections:
+      - file: 03-math230/Julia_sets
+      - file: 03-math230/Lorenz
+          
     
