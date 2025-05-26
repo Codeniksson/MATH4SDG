@@ -4,10 +4,11 @@
 format: jb-book
 root: intro
 chapters:
-  - file: 01-intro/1-who-for
+  - file: 01-intro/0-who-for
     sections:
-      - file: 01-intro/2-code
-      - file: 01-intro/3-data
+      - file: 01-intro/1-code
+      - file: 01-intro/2-Covid19_Norway
+      - file: 01-intro/3-CO2_emissions
   - file: 02-math102/math102-description
     sections:
       - file: 02-math102/grunnleggende_python
@@ -16,5 +17,4 @@ chapters:
     sections:
       - file: 03-math230/Julia_sets
       - file: 03-math230/Lorenz
-          
     

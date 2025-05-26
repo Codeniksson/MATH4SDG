@@ -3,8 +3,11 @@ author: "Anna Oleynik, and other authors"
 logo: "logo.png"
 
 execute:
-  execute_notebooks: "auto"
+  execute_notebooks: "force"  # Options: "auto", "force", "off"
 
+exclude_patterns:
+#  - "**.ipynb_checkpoints"
+  - "not_in_book/*"
 
 parse:
   myst_enable_extensions: 
