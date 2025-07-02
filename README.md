@@ -6,3 +6,5 @@ Simply:
 1. Load the files, add yours, make a new _toc.yml and
 2. Build the book with  *jb build .*
 3. To publish it, create gh-pages branch, with only html files.
+
+Current page is here: https://codeniksson.github.io/MATH4SDG/intro.html 
